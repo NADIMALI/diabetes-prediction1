@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="description" content="***************">
+    <meta name="keywords" content="diabatis Preadction">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../static/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../static/css/bootstrap/bootstrap.min.css">
+
+
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="../static/css/animate/animate.css">
+
+    <!-- magnific-popup CSS -->
+    <link rel="stylesheet" href="../static/css/magnific-popup/magnific-popup.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../static/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../static/css/responsive.css">
+
+    <!-- tab js -->
+    <script src="../static/js/tabs/tab.custom.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+    <style type="text/css">
+        /* General Css */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+}
+
+a {
+    color: #34c6d3;
+}
+
+h4.modal-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'edoregular';
+    src: url('edo-webfont.eot');
+    src: url('edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('edo-webfont.woff2') format('woff2'),
+         url('edo-webfont.woff') format('woff'),
+         url('edo-webfont.ttf') format('truetype'),
+         url('edo-webfont.svg#edoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/* =========================================
+                   HOME
+===========================================*/
+
+#home {
+    height: 100%;
+}
+
+#home-cover{
+    height: 100%;
+
+   background-image: url("../static/img/home.png");
+
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h3 {
+    font-family: 'edoregular';
+    color: #cc0000;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+}
+
+#home-heading h5{
+    font-family: 'edoregular';
+    color: #cc0000;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+/*For the form*/
+
+
+    </style>
+    
+</head>
+<body data-spy="scroll" class="" data-target=".navbar-fixed-top" data-offset="65">
+
+
+    <header>
+
+        <nav class="navbar navbar-fixed-top" role="navigation">
+
+            <div class="container-fluid">
+
+                <div class="techaura-nav-wrapper">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#techaura-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="techaura-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#Prediction">Prediction</a></li>
+                             <li><a class="smooth-scroll" href="#about">About</a></li> 
+                        </ul> 
+                           
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+        <!-- Home -->
+    <section id="home">
+
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+
+            <div id="home-content-box" class="text-center">
+
+                <div id="home-content-box-inner">
+
+                    <div id="home-heading" class="animated zoomIn">
+                        <h3>Diabetes Prediction</h3>
+                        
+
+                    </div>
+
+                    <div id="home-btn" class="animated zoomIn">
+                        <a class="smooth-scroll btn btn-lg btn-general btn-white text-danger" href="#Prediction" role="button" title="Prediction">Prediction</a>
+                    </div>
+                    <div id="home-heading" class="animated zoomIn">
+                    <h3>  {{pred}} </h3>
+                    </div>
+                    
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section >
+
+        <section id="Prediction"  style="background-image: url(../static/img/prd.jpg);height: 100%;text-align: center;padding-top: 2%;padding-left: 5%;padding-right: 5%;padding-bottom: 2%">
+
+         <form action='/predict' method="post" >
+            <h3 class="text-danger"> Prediction </h3>
+            <hr>
+  
+      
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label  class="text-danger">Pregnancies</label>
+      <input type="text" class="form-control is-valid"  name="Pregnancies"  placeholder="0 to 17 "  required>
+    </div>
+   
+    
+  
+    <div class="col-md-6 mb-3">
+      <label  class="text-danger">Glucose</label>
+      <input type="text" class="form-control is-valid"  name="Glucose " placeholder="0 to 199"  required>
+    </div>
+   
+    
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label  class="text-danger">Blood Pressure</label>
+      <input type="text" class="form-control is-valid"  name="BloodPressure"  placeholder="0 to 122 "  required>
+    </div>
+   
+    
+  
+    <div class="col-md-6 mb-3">
+      <label  class="text-danger">Skin Thickness</label>
+      <input type="text" class="form-control is-valid"  name="SkinThickness" placeholder="0 to 99"  required>
+    </div>
+   
+    
+  </div>
+    
+ 
+  <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label  class="text-danger">Insulin</label>
+      <input type="text" class="form-control is-valid"  name="Insulin"  placeholder="0 to 846 "  required>
+    </div>
+   
+    
+  </div>
+  <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label  class="text-danger">BMI</label>
+      <input type="text" class="form-control is-valid"  name="BMI" placeholder="0 to 68"  required>
+    </div>
+   
+    
+  </div>
+  <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label  class="text-danger">Diabetes Pedigree Function</label>
+      <input type="text" class="form-control is-valid"  name="DiabetesPedigreeFunction"  placeholder="0.8 to 2.42 "  required>
+    </div>
+   
+    
+  </div>
+  <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label  class="text-danger">Age</label>
+      <input type="text" class="form-control is-valid"  name="Age" placeholder="21 to 81"  required>
+    </div>
+   
+    
+  </div>
+  
+  
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+    </section>
+
+     <!-- About -->
+    <section id="about" style="background-color: black">
+
+        
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div id="about-content-box">
+
+                        <div id="about-content-box-outer">
+
+                            <div id="about-content-box-inner">
+
+                                <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <h3 class="text-danger"> About  </h3>
+                                    <div class="content-title-underline"></div>
+                                </div>
+
+                                <div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <p class="text-danger">Diabetes is a chronic disease with the potential to cause a worldwide health care crisis. According to
+International Diabetes Federation 382 million people are living with diabetes across the whole world. By 2035,
+this will be doubled as 592 million. Diabetes mellitus or simply diabetes is a disease caused due to the increase
+level of blood glucose. Various traditional methods, based on physical and chemical tests, are available for
+diagnosing diabetes. However, early prediction of diabetes is quite challenging task for medical practitioners
+due to complex interdependence on various factors as diabetes affects human organs such as kidney, eye, heart,
+nerves, foot etc. Data science methods have the potential to benefit other scientific fields by shedding new light
+on common questions. One such task is to help make predictions on medical data. Machine learning is an
+emerging scientific field in data science dealing with the ways in which machines learn from experience. The
+aim of this project is to develop a system which can perform early prediction of diabetes for a patient with a
+higher accuracy by combining the results of different machine learning techniques. This project aims to predict
+diabetes via three different supervised machine learning methods including: SVM, Logistic regression, ANN.
+This project also aims to propose an effective technique for earlier detection of the diabetes disease.
+Keywords: Machine Learning, Supervised, Svm, Ann, Logistic Regression
+</p>
+                                </div>
+
+                               
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <footer>
+
+   <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2020  |<br>Developed by <a href="https://www.instagram.com/nadim_akhter_/">Nadim Akhter</a></p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div id="footer-menu">
+                            <ul>
+                                <li><a class="smooth-scroll" href="#home">Home</a>/</li>
+                                <li><a class="smooth-scroll" href="#Prediction">Prediction</a>/</li>
+                                <li><a class="smooth-scroll" href="#about">About</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+
+    </footer>
+
+    
+
+</body>
+</html>
