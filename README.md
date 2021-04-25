@@ -1,1 +1,1 @@
-# diabetes-prediction1
+# Diabetes Prediction using Machine Learning
